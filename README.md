@@ -30,15 +30,14 @@ To get the project running follow the commands:
   </nav>
 ```
 
-..1. Add the `navbar` and `navbar-default` classes to the nav tag
-..2. Then we add another div `container-fluid`, we use the fluid container to take up whole width
-..3. Add the div for `navbar-header` so we can add our logo or name
-..4. Then we create a `collapse navbar-collapse` div
-..5. Inside the div we place a ul with a class of `nav navbar-nav`
-..6. The li tags contain the links to the different web pages
-..7. And with that navbar is done
-
-5. Now, let's make the header section of our page
+1.  Add the `navbar` and `navbar-default` classes to the nav tag
+2.  Then we add another div `container-fluid`, we use the fluid container to take up whole width
+3.  Add the div for `navbar-header` so we can add our logo or name
+4.  Then we create a `collapse navbar-collapse` div
+5.  Inside the div we place a ul with a class of `nav navbar-nav`
+6.  The li tags contain the links to the different web pages
+7.  And with that navbar is done
+8.  Now, let's make the header section of our page
 
 ```
 <header id="header">
