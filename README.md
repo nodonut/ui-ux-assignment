@@ -42,6 +42,14 @@ To get the project running follow the commands:
 ```
 <header id="header">
       <div class="container">
+```
+
+1. Inside the `header` tag we add a container
+2. We do not want this container to take up the whole space so we are not making it fluid
+3. Next we need to create a row and add flexbox properties to it.
+4. The `align-items-center` is modified in the given style.css file
+
+```
         <div class="row align-items-center">
           <div class="col-md-2">
               <h2 class="mt-4">Requests</h2>
@@ -55,6 +63,21 @@ To get the project running follow the commands:
               "></span> Board
             </button>
           </div>
+```
+
+5. Using bootstrap we create 2 columns
+6. The first column will work as the heading for the page we are on, in this case it's the Requests page
+7. After that we will create another column for the table and board buttons
+8. These buttons will take 5 slots so that we can push the rest of the columns to the right
+9. Inside the first column, we have an h2 referring to the current page
+10. Inside the second column, we have two buttons one with id of `tableBtn` and another with `boardBtn`
+11. These IDs will be useful when we need to use JavaScript for interactivity
+12. The buttons have the class of `btn btn-default`
+13. Inside the buttons we have `span` tag which shows the glyphicons from Bootstrap
+14. We add the heading next to the span
+15. Next we move on to the right side of our header section
+
+```
           <div class="col-md-3">
             <div class="btn-group flex-end">
               <button class="btn" title="Search">
@@ -77,9 +100,22 @@ To get the project running follow the commands:
                   <li><a href="#">Rejected</a></li>
                 </ul>
               </div>
-
             </div>
           </div>
+```
+
+16. Here we another column and inside the column div we have a `btn-group`
+17. This group includes buttons with similar classes as the previous ones and span with glyphicons.
+18. These buttons only have the `btn` class and not the default for different styling
+19. Next we have a div with `dropdown` class
+20. Inside the class we have a button with `dropdown-toggle` as a class
+21. Bootstrap requires your dropdown buttons to have a `data-toggle="dropdown"` attribute
+22. Next we have the ul with the class of `dropdown-menu`
+23. This contains all the list items for our dropdown menu
+24. The first item in the list is the header below which we add a divider
+25. The rest our the normal list items which contain additional functionality depending on your script.
+
+```
           <div class="col-md-2">
             <button class="btn btn-success">
               <span class="glyphicon glyphicon-plus
@@ -91,3 +127,6 @@ To get the project running follow the commands:
       </div>
     </header>
 ```
+
+26. The last column contains our New Request btn with a plus glyphicon next to it
+27. To create a separation between the header and our main table or board we use a `hr` tag
