@@ -44,10 +44,10 @@ To get the project running follow the commands:
       <div class="container">
 ```
 
-1. Inside the `header` tag we add a container
-2. We do not want this container to take up the whole space so we are not making it fluid
-3. Next we need to create a row and add flexbox properties to it.
-4. The `align-items-center` is modified in the given style.css file
+    1. Inside the `header` tag we add a container
+    2. We do not want this container to take up the whole space so we are not making it fluid
+    3. Next we need to create a row and add flexbox properties to it.
+    4. The `align-items-center` is modified in the given style.css file
 
 ```
         <div class="row align-items-center">
